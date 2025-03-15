@@ -1,0 +1,9 @@
+.partners {
+  margin: 60px auto 90px;
+  padding: 0px 90px;
+  position: relative;
+}
+
+.partners div {
+  margin: 0px 30px;
+}
