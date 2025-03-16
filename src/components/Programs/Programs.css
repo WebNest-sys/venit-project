@@ -48,3 +48,13 @@
   opacity: 1;
   padding-top: 0;
 }
+
+@media only screen and (max-width: 960px) {
+  .programs{
+    display: block;
+  }
+
+  .program {
+    margin-bottom: 24px;
+  }
+}

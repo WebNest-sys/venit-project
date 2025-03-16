@@ -43,3 +43,29 @@
   color: #676767;
   margin-left: 3%;
 }
+
+@media only screen and (max-width: 960px) {
+  .about{
+    display: block;
+  }
+
+  .aboutLeft {
+    margin-bottom: 24px;
+  }
+
+  .about h2 {
+    font-size: 16px;
+  }
+
+  .about h3 {
+    font-size: 27px;
+  }
+  
+  .about p {
+    font-size: 14px;
+  }
+
+  .about li {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,43 @@
+.detailsBarWrapper {
+   background-color: #212ea0;
+   border-radius: 7px;
+   position: relative;
+   padding: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: auto;
+   padding-bottom: 100px;
+   @media (max-width: 940px) {
+     padding-bottom: 80px;
+     grid-row: 2;
+  }
+}
+
+ .textWrapper {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+
+  .textOne {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .contactWrapper {
+    display: flex;
+    width: 200px;
+    height: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .contactText {
+    color: #fff;
+    font-size: 15px;
+    margin-left: 10px;
+  }

@@ -2,7 +2,7 @@ import React from "react";
 import Hero from '../components/Hero/Hero';
 import Programs from '../components/Programs/Programs';
 import About from '../components/About/About';
-import Title from "../components/Title/Title";
+import Title from "../components/UITemplates/Title/Title";
 import Services from "../components/Services/Services";
 import Partners from "../components/Partners/Partners";
 import Footer from "../components/Footer/Footer";

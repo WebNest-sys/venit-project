@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    align-items: center;
+    background-color: whitesmoke;
+    padding-bottom: 50px;
+}
+
+.container-items {
+    width: 70%;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    
+    @media (max-width: 768px) {
+        width: 90%;
+    }
+}
