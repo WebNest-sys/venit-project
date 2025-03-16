@@ -1,5 +1,5 @@
 import React from "react";
-import "./programs.css";
+import './programs.css';
 import employees from "../../assets/employees.png";
 import consulting from "../../assets/consulting.png";
 import contracttohire from "../../assets/contracttohire.png";
