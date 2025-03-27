@@ -1,5 +1,5 @@
 .services {
-  margin: 60px auto 90px;
+  margin: 10px auto 10px;
   padding: 0px 80px;
   position: relative;
 }
@@ -75,4 +75,5 @@
 
 .serviceInfo p {
   margin: 5px 0px;
+  color: #fff;
 }

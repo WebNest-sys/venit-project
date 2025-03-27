@@ -28,7 +28,6 @@ nav ul li {
   transition: 0.5s;
 } */
 
-
 .navbar {
   background: #212ea0;
   height: 80px;
@@ -67,7 +66,7 @@ nav ul li {
 
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(5, auto);
   grid-gap: 10px;
   list-style: none;
   text-align: center;

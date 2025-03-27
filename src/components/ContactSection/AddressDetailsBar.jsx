@@ -1,7 +1,12 @@
-import React from 'react';
-import './AddressDetailsBar.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faPhone, faAddressCard, faX } from '@fortawesome/free-solid-svg-icons';
+import React from "react";
+import "./AddressDetailsBar.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faEnvelope,
+  faPhone,
+  faAddressCard,
+  faX,
+} from "@fortawesome/free-solid-svg-icons";
 
 // const DetailsBarWrapper = styled.div`
 //   background-color: rgb(8, 8, 63);
@@ -18,8 +23,6 @@ import { faEnvelope, faPhone, faAddressCard, faX } from '@fortawesome/free-solid
 //     grid-row: 2;
 //   }
 // `;
-
-
 
 // const TextOne = styled.p`
 
@@ -86,22 +89,26 @@ const AddressDetailsBar = () => {
   return (
     <div class="detailsBarWrapper">
       <div class="textWrapper">
-        <div class="textOne">Contact Information</div>
+        <div class="textOne">VENIT Solutions</div>
       </div>
 
       <div>
-        <div class="contactWrapper" >
-          <FontAwesomeIcon icon={ faPhone } />
-          <div class="contactText">+91 1234512345</div>
+        <div class="contactWrapper">
+          <FontAwesomeIcon icon={faPhone} />
+          <div class="contactText"> +91 9686760594</div>
         </div>
 
-        <div class="contactWrapper" >
-          <FontAwesomeIcon icon={ faAddressCard } />
-          <div class="contactText">test@gmail.com</div>
+        <div class="contactWrapper">
+          <FontAwesomeIcon icon={faAddressCard} />
+          <div class="contactText">
+            #459, 3rd floor, Kiran Towers, Service Rd,<br></br>
+            Teacher's Colony, Santhosapuram,<br></br>
+            1st Block Koramangala, Bengaluru,<br></br>
+            Karnataka-560034 India. <br></br>
+            <br></br>aravind@venitconsulting.com
+          </div>
         </div>
       </div>
-
-      
     </div>
   );
 };

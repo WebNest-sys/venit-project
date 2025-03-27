@@ -1,20 +1,21 @@
 .inputSideWrapper {
-    height: auto;
-    padding-bottom: 100px;
-    position: relative;
-    padding: 10px 10px 100px 10px;
+  height: auto;
+  padding-bottom: 100px;
+  position: relative;
+  padding: 10px 10px 100px 10px;
+  width: 70%;
 }
 
 .inputWrapper {
-    border: 2px solid transparent;
-    width: 90%;
-    padding-left: 10px;
-    display: flex;
-    flex-direction: column;
+  border: 2px solid transparent;
+  width: 90%;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
-.input{
-    color: #333;
+.input {
+  color: #333;
   width: 100%;
   font-size: 15px;
   padding: 8px;
@@ -26,7 +27,7 @@
 }
 
 .messageInput {
-    width: 100%;
+  width: 100%;
   color: #333;
   font-size: 15px;
   padding: 10px;
@@ -38,7 +39,7 @@
 }
 
 .button {
-    position: absolute;
+  position: absolute;
   bottom: 20px;
   right: 20px;
   padding: 10px;
@@ -49,4 +50,3 @@
   padding: 12px 25px 12px 24px;
   cursor: pointer;
 }
-

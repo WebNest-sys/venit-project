@@ -1,5 +1,5 @@
 .programs {
-  margin: 80px auto;
+  margin: 20px auto;
   width: 90%;
   display: flex;
   align-items: center;
@@ -44,13 +44,18 @@
   filter: invert(1);
 }
 
+.caption p {
+  color: #fff;
+  font-size: 25px;
+}
+
 .program:hover .caption {
   opacity: 1;
   padding-top: 0;
 }
 
 @media only screen and (max-width: 960px) {
-  .programs{
+  .programs {
     display: block;
   }
 

@@ -1,5 +1,5 @@
 .about {
-  margin: 100px auto;
+  margin: 100px auto 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -36,16 +36,18 @@
   color: #676767;
   margin-bottom: 15px;
   font-size: 18px;
+  letter-spacing: 1px;
 }
 
 .about li {
   font-size: 18px;
   color: #676767;
   margin-left: 3%;
+  letter-spacing: 1px;
 }
 
 @media only screen and (max-width: 960px) {
-  .about{
+  .about {
     display: block;
   }
 
@@ -60,7 +62,7 @@
   .about h3 {
     font-size: 27px;
   }
-  
+
   .about p {
     font-size: 14px;
   }

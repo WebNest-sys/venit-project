@@ -18,6 +18,11 @@ a {
   cursor: pointer;
 }
 
+p {
+  color: #676767;
+  font-size: 18px;
+}
+
 .container {
   padding-left: 10%;
   padding-right: 10%;

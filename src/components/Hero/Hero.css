@@ -26,6 +26,8 @@
   font-size: 18px;
   margin: 15px auto 30px;
   line-height: 1.5;
+  color: #fff;
+  letter-spacing: 1px;
 }
 
 @media only screen and (max-width: 960px) {
