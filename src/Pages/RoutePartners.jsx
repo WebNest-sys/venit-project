@@ -7,7 +7,7 @@ function RoutePartners() {
   return (
     <div>
       <Subnavbar navTitle="Our Partners" navSubtitle="Our Partners" />
-      <div>
+      <div className="pagesContainer">
         <Ourpartners />
       </div>
       <Footer />

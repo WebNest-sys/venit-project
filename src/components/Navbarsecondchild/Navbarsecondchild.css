@@ -1,0 +1,20 @@
+.navContainer {
+  background: #212ea0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  border-top: 1px solid #ccc;
+  padding-top: 40px;
+  text-align: center;
+  min-height: 160px;
+}
+
+.navContainer h1 {
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+.navContainer span {
+  margin: 0px 10px;
+}

@@ -9,11 +9,20 @@ function Routeabout() {
       <Subnavbar navTitle="About Us" navSubtitle="About Us" />
       <div className="container">
         <About />
-        <p>
-          VenIT works directly with IT, Telecom and Semicon Companies for their
-          team's success. Additionally, we are happy to support your company
-          within whatever process you have established.
-        </p>
+      </div>
+      <div className="pagesContainer">
+        <ul>
+          <li>
+            We have great network with top IT , Telecom, Networking and Semicon
+            companies for Campus hiring pan India.
+          </li>
+          <li>We train Fresher on real time projects.</li>
+          <li>We conduct client round interviews.</li>
+          <li>
+            We have our own Staffing (placement) services and we work directly
+            with our end clients.
+          </li>
+        </ul>
       </div>
       <Footer />
     </div>

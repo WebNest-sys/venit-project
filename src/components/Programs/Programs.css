@@ -37,16 +37,22 @@
   transition: 0.4s;
 }
 
+.caption a {
+  display: block;
+}
+
 .caption img {
   width: 70px;
-  margin-bottom: 10px;
+  margin: 10px auto;
   border: 0px;
   filter: invert(1);
+  margin: a;
 }
 
 .caption p {
   color: #fff;
   font-size: 25px;
+  text-align: center;
 }
 
 .program:hover .caption {

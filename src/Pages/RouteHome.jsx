@@ -11,7 +11,7 @@ function RouteHome() {
   return (
     <>
       <Hero />
-      <div className="container">
+      <div className="pagesContainer">
         <Title subTitle="Our PROGRAMS" title="What We Offer" />
         <Programs />
         <About />

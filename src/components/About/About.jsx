@@ -22,18 +22,6 @@ const About = () => {
           technology partners based out of India, Malaysia, Singapore, UAE, USA
           and Canada.
         </p>
-        <ul>
-          <li>
-            We have great network with top IT, Telecom, Networking and Semicon
-            companies for Campus hiring pan India.
-          </li>
-          <li>
-            We have our own Staffing (placement) services and we work directly
-            with our end clients.
-          </li>
-          <li>We train Fresher on real time projects.</li>
-          <li>We conduct client round interviews.</li>
-        </ul>
       </div>
     </div>
   );
