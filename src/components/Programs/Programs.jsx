@@ -23,7 +23,7 @@ const programs = () => {
       <div className="program">
         <img src={employees} alt="" />
         <div className="caption">
-          <a href="/Staffingsolutions">
+          <a href="/Staffingservices">
             <img src={hiringicon} alt="" />
             <p>Staffing Solutions</p>
           </a>

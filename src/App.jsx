@@ -7,6 +7,7 @@ import Routeabout from "./Pages/Routeabout";
 import RouteProgram from "./Pages/RouteProgram";
 import RoutePartners from "./Pages/RoutePartners";
 import RouteItconsultingservices from "./Pages/RouteItconsultingservices";
+import Routestaffingservices from "./Pages/Routestaffingservices";
 import Artificialintelligence from "./Pages/Artificialintelligence";
 import Dataanalytics from "./Pages/Dataanalytics";
 import Embedediot from "./Pages/Embedediot";
@@ -33,6 +34,7 @@ const App = () => {
             path="/itconsultingservices"
             element={<RouteItconsultingservices />}
           />
+          <Route path="/Staffingservices" element={<Routestaffingservices />} />
           <Route
             path="/Artificialintelligence"
             element={<Artificialintelligence />}
