@@ -14,13 +14,13 @@ const Services = () => {
   let tx = 0;
   const slideForward = () => {
     if (tx > -25) {
-      tx -= 35;
+      tx -= 33;
     }
     slider.current.style.transform = `translateX(${tx}%)`;
   };
   const slideBackward = () => {
     if (tx < 0) {
-      tx += 35;
+      tx += 33;
     }
     slider.current.style.transform = `translateX(${tx}%)`;
   };
