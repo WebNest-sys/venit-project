@@ -27,14 +27,10 @@ function Blockchain() {
           vision.
         </p>
 
-        <p>
-          {" "}
-          <strong> Experience Platforms and partners </strong>
-        </p>
+        <h3> Experience Platforms and partners </h3>
 
-        <ul class="flat-list">
+        <ul>
           <li>Sitecore </li>
-
           <li>Hyperledger Fabric </li>
           <li>Hyperledger Sawtooth </li>
           <li>Stellar </li>
@@ -50,10 +46,7 @@ function Blockchain() {
           <li>AZURE </li>
         </ul>
 
-        <p>
-          {" "}
-          <strong> Blockchain solutions</strong>
-        </p>
+        <h3>Blockchain solutions</h3>
         <p>
           Blockchain technology is emerging as a business focus for
           organizations in several industries, including consumer products,
@@ -62,17 +55,10 @@ function Blockchain() {
           goals with respect to blockchain implementation,innovation and
           ideation, strategy development, prototyping, and product development.
         </p>
-        <p>
-          {" "}
-          <strong>
-            {" "}
-            Our services to guide your blockchain journey include:
-          </strong>{" "}
-        </p>
+        <h3>Our services to guide your blockchain journey include:</h3>
 
         <p>
-          {" "}
-          <strong> Innovation and ideation</strong>{" "}
+          <strong> Innovation and ideation</strong>
         </p>
         <p>
           Continuously identify relevant use cases to harvest the benefits of
@@ -84,8 +70,7 @@ function Blockchain() {
         </p>
 
         <p>
-          {" "}
-          <strong> Strategy development </strong>{" "}
+          <strong> Strategy development </strong>
         </p>
         <p>
           Lead clients in defining blockchain goals and objectives as part of
@@ -98,7 +83,6 @@ function Blockchain() {
         </p>
 
         <p>
-          {" "}
           <strong> Prototyping </strong>
         </p>
         <p>
@@ -112,8 +96,7 @@ function Blockchain() {
         </p>
 
         <p>
-          {" "}
-          <strong> Product development</strong>{" "}
+          <strong> Product development</strong>
         </p>
         <p>
           Mobilize our highly trained and technical global blockchain
@@ -125,11 +108,8 @@ function Blockchain() {
           integrate your blockchain solution.
         </p>
 
-        <p>
-          {" "}
-          <strong>What to expect? </strong>{" "}
-        </p>
-        <ul class="flat-list">
+        <h3>What to expect? </h3>
+        <ul>
           <li>Immutability.</li>
           <li>Smart contracts.</li>
           <li>Network security.</li>

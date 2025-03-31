@@ -13,7 +13,9 @@ const hero = () => {
           sustainable growth. Partner with us to stay ahead in a rapidly
           evolving digital landscape.
         </p>
-        <button className="btn">Explore more</button>
+        <button className="btn">
+          <a href="/program">Explore more</a>
+        </button>
       </div>
     </div>
   );

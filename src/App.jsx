@@ -14,6 +14,10 @@ import Cybersecurity from "./Pages/Cybersecurity";
 import Blockchain from "./Pages/Blockchain";
 import Manageditcloudconsulting from "./Pages/Manageditcloudconsulting";
 import Fullstack from "./Pages/Fullstack";
+import Uiuxservices from "./Pages/Uiuxservices";
+import Ecommerce from "./Pages/Ecommerce";
+import Mobileapplication from "./Pages/Mobileapplication";
+import Processconsulting from "./Pages/Processconsulting";
 const App = () => {
   return (
     <>
@@ -42,6 +46,10 @@ const App = () => {
             element={<Manageditcloudconsulting />}
           />
           <Route path="/Fullstack" element={<Fullstack />} />
+          <Route path="/Uiuxservices" element={<Uiuxservices />} />
+          <Route path="/Ecommerce" element={<Ecommerce />} />
+          <Route path="/Mobileapplication" element={<Mobileapplication />} />
+          <Route path="/Processconsulting" element={<Processconsulting />} />
         </Routes>
       </Router>
     </>

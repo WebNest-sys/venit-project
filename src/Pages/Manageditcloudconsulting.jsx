@@ -12,7 +12,6 @@ function Manageditcloudconsulting() {
         navSubtitle="Managed IT &amp; Cloud Consulting"
       />
       <div className="pagesContainer">
-        <h3>Managed IT and Cloud Consulting</h3>
         <p>
           Our experts are Cloud certified professionals. They are engaged in
           real time, providing solutions on architecting, planning,
@@ -20,9 +19,7 @@ function Manageditcloudconsulting() {
           are your one stop and preferred Cloud partner.{" "}
         </p>
 
-        <p>
-          <strong>Program Governance Management </strong>
-        </p>
+        <h3>Program Governance Management </h3>
         <ul>
           <li> Agent based Deployments- People and Services </li>
           <li> End to End Portfolio and Program Management </li>
@@ -36,9 +33,7 @@ function Manageditcloudconsulting() {
           <li>Management of Help Desk L1, L2 and L3 </li>
         </ul>
 
-        <p>
-          <strong>Multi Cloud Solution Services </strong>
-        </p>
+        <h3>Multi Cloud Solution Services </h3>
         <ul>
           <li>Cloud Transformation</li>
           <li>Consolidation and Migration</li>
@@ -50,17 +45,13 @@ function Manageditcloudconsulting() {
           </li>
         </ul>
 
-        <p>
-          <strong>Intune Deployment </strong>
-        </p>
+        <h3>Intune Deployment </h3>
         <ul>
           <li>Mobile Device Management (MDM) </li>
           <li>Remote Monitoring and Management (RMM)</li>
         </ul>
 
-        <p>
-          <strong>Cloud Security and Compliance Services </strong>
-        </p>
+        <h3>Cloud Security and Compliance Services </h3>
 
         <ul>
           <li>Cloud Security Posture (CSP) </li>
@@ -73,9 +64,7 @@ function Manageditcloudconsulting() {
           <li>Compliance Certifications </li>
         </ul>
 
-        <p>
-          <strong>Business Availability Services </strong>
-        </p>
+        <h3>Business Availability Services </h3>
         <ul>
           <li>Business Continuity Planning</li>
           <li>Best Practices alignment </li>

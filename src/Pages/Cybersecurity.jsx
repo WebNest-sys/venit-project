@@ -12,10 +12,7 @@ function Cybersecurity() {
         navSubtitle="Cybersecurity Services"
       />
       <div className="pagesContainer">
-        <p>
-          {" "}
-          <strong> Cybersecurity protection </strong>
-        </p>
+        <h3> Cybersecurity protection </h3>
         <p>
           We at VENIT are a passionate team, highly trained, proactive ethical
           hackers. We protect and secure organizations from costly cybersecurity
@@ -26,11 +23,7 @@ function Cybersecurity() {
           thriving future.
         </p>
 
-        <p>
-          {" "}
-          <strong>Purpose </strong>{" "}
-        </p>
-
+        <h3>Purpose</h3>
         <p>
           We help foster safe digital spaces where everyone has the right to
           privacy, cybersecurity, and a thriving future.
@@ -49,10 +42,7 @@ function Cybersecurity() {
           demonstrate their impact.
         </p>
 
-        <p>
-          {" "}
-          <strong>Our Solutions </strong>{" "}
-        </p>
+        <h3>Our Solutions </h3>
         <p>
           Our solutions are geared to one key purpose - strengthening your
           security posture. You can rest easy knowing our comprehensive testing
@@ -60,7 +50,7 @@ function Cybersecurity() {
           their potential impact.
         </p>
 
-        <ul class="flat-list">
+        <ul>
           <li> Infrastructure Penetration Testing</li>
           <li>Ransomware Penetration Testing</li>
           <li>Objective-Based Penetration Testing</li>
@@ -74,10 +64,9 @@ function Cybersecurity() {
         </ul>
 
         <p>
-          {" "}
           <strong>
-            Infrastructure Penetration Testing - Find weaknesses others overlook{" "}
-          </strong>{" "}
+            Infrastructure Penetration Testing - Find weaknesses others overlook
+          </strong>
         </p>
         <p>
           Our detailed penetration test assessment uncovers vulnerabilities
@@ -90,11 +79,10 @@ function Cybersecurity() {
         </p>
 
         <p>
-          {" "}
           <strong>
             Ransomware Penetration Testing - Evaluate your preparedness and risk
             of a ransomware attack
-          </strong>{" "}
+          </strong>
         </p>
         <p>
           Evaluates both technical (thorough penetration test) and non-technical
@@ -108,11 +96,10 @@ function Cybersecurity() {
         </p>
 
         <p>
-          {" "}
           <strong>
             Objective-Based Penetration Testing - Simulate real-world, covert,
-            goal-oriented attacks{" "}
-          </strong>{" "}
+            goal-oriented attacks
+          </strong>
         </p>
         <p>
           Reduce the risk of a breach with a specific objective-based approach.
@@ -123,11 +110,10 @@ function Cybersecurity() {
         </p>
 
         <p>
-          {" "}
           <strong>
             Application Security Testing - Web, Mobile and API Penetration
-            Testing Services{" "}
-          </strong>{" "}
+            Testing Services
+          </strong>
         </p>
         <p>
           From source-code, all the way up to the browser - our application
@@ -140,10 +126,9 @@ function Cybersecurity() {
         </p>
 
         <p>
-          {" "}
           <strong>
-            DevSecOps - Discover vulnerabilities in your development lifecycle{" "}
-          </strong>{" "}
+            DevSecOps - Discover vulnerabilities in your development lifecycle
+          </strong>
         </p>
         <p>
           With DevSecOps, we find and flag vulnerabilities within existing
@@ -154,11 +139,10 @@ function Cybersecurity() {
         </p>
 
         <p>
-          {" "}
           <strong>
             Cyber Maturity Assessment - A cybersecurity health check for your
-            organization{" "}
-          </strong>{" "}
+            organization
+          </strong>
         </p>
         <p>
           As the first step in strengthening security posture, a Cyber Maturity
@@ -171,8 +155,7 @@ function Cybersecurity() {
         </p>
 
         <p>
-          {" "}
-          <strong>Red Teaming - Assess potential attack paths </strong>{" "}
+          <strong>Red Teaming - Assess potential attack paths </strong>
         </p>
         <p>
           Red teaming is a full scope, multi-layered simulated attack designed
@@ -187,11 +170,10 @@ function Cybersecurity() {
         </p>
 
         <p>
-          {" "}
           <strong>
             Cloud Penetration Testing- Go beyond the checkbox with Cloud
-            Security Services{" "}
-          </strong>{" "}
+            Security Services
+          </strong>
         </p>
         <p>
           There are multiple perspectives that help with strengthening your
@@ -204,11 +186,10 @@ function Cybersecurity() {
         </p>
 
         <p>
-          {" "}
           <strong>
             ICS/OT Cyber Security Assessment - Secure your industrial networks,
-            devices, and production lines{" "}
-          </strong>{" "}
+            devices, and production lines
+          </strong>
         </p>
         <p>
           An ICS/OT Cyber Security Assessment can help you ensure the safety and

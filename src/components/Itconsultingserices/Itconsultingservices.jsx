@@ -97,7 +97,7 @@ const Itconsultingservices = () => {
               research, user interviews and User testing etc
             </p>
             <div className="serlistMore">
-              <a href="/">Read More</a>
+              <a href="/Uiuxservices">Read More</a>
             </div>
           </li>
           <li>
@@ -109,7 +109,7 @@ const Itconsultingservices = () => {
               competitors.
             </p>
             <div className="serlistMore">
-              <a href="/">Read More</a>
+              <a href="/Ecommerce">Read More</a>
             </div>
           </li>
           <li>
@@ -120,7 +120,7 @@ const Itconsultingservices = () => {
               transformative enterprise-class solution.
             </p>
             <div className="serlistMore">
-              <a href="/">Read More</a>
+              <a href="/Mobileapplication">Read More</a>
             </div>
           </li>
           <li>
@@ -132,7 +132,7 @@ const Itconsultingservices = () => {
               31000).
             </p>
             <div className="serlistMore">
-              <a href="/">Read More</a>
+              <a href="/Processconsulting">Read More</a>
             </div>
           </li>
         </ul>

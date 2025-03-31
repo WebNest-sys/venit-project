@@ -144,9 +144,7 @@ function Dataanalytics() {
           Make analytical processes faster and more efficient with real-time big
           data analytics. We offer the below services:
         </p>
-        <p>
-          <strong>Architecture Analysis</strong>
-        </p>
+        <h3>Architecture Analysis</h3>
         <ul>
           <li>
             Analyzing the app and its needs along with business requirements.
@@ -158,9 +156,7 @@ function Dataanalytics() {
           <li>Getting an action plan on future improvements.</li>
         </ul>
 
-        <p>
-          <strong>Architecture Improvement</strong>
-        </p>
+        <h3>Architecture Improvement</h3>
         <ul>
           <li>
             Implementing best practices and automation processes into the
@@ -181,9 +177,8 @@ function Dataanalytics() {
           </li>
         </ul>
 
-        <p>
-          <strong>Big Data Pipelines</strong>
-        </p>
+        <h3>Big Data Pipelines</h3>
+
         <ul>
           <li>
             Designing big data analytics software solutions based on business
@@ -196,9 +191,7 @@ function Dataanalytics() {
           </li>
         </ul>
 
-        <p>
-          <strong>Data Analysis and Visualization</strong>
-        </p>
+        <h3>Data Analysis and Visualization</h3>
         <ul>
           <li>
             Processing the data to the point of analysis with all data points
