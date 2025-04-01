@@ -6,7 +6,6 @@ import contracttohire from "../../assets/contracttohire.png";
 import hiringicon from "../../assets/hiringicon.png";
 import consultingicon from "../../assets/consultingicon.png";
 import contracticon from "../../assets/contracticon.png";
-import CardItem from "../UITemplates/CardItem/CardItem";
 
 const programs = () => {
   return (

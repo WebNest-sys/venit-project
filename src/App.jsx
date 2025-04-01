@@ -7,6 +7,7 @@ import Routeabout from "./Pages/Routeabout";
 import RouteProgram from "./Pages/RouteProgram";
 import RoutePartners from "./Pages/RoutePartners";
 import RouteItconsultingservices from "./Pages/RouteItconsultingservices";
+import Routelearningdevelopment from "./Pages/Routelearningdevelopment";
 import Routestaffingservices from "./Pages/Routestaffingservices";
 import Artificialintelligence from "./Pages/Artificialintelligence";
 import Dataanalytics from "./Pages/Dataanalytics";
@@ -31,8 +32,12 @@ const App = () => {
           <Route path="/program" element={<RouteProgram />} />
           <Route path="/partners" element={<RoutePartners />} />
           <Route
-            path="/itconsultingservices"
+            path="/Itconsultingservices"
             element={<RouteItconsultingservices />}
+          />
+          <Route
+            path="/Learningdevelopment"
+            element={<Routelearningdevelopment />}
           />
           <Route path="/Staffingservices" element={<Routestaffingservices />} />
           <Route
