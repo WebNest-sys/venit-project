@@ -18,3 +18,9 @@
 .navContainer span {
   margin: 0px 10px;
 }
+
+@media only screen and (max-width: 481px) {
+  .navContainer h1 {
+    font-size: 25px;
+  }
+}

@@ -59,3 +59,33 @@
   background: #fff;
   color: #212ea0;
 }
+
+@media only screen and (max-width: 960px) {
+  .consultServices img {
+    display: none;
+  }
+
+  .serviceList {
+    position: relative;
+  }
+
+  .serviceList li {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .serviceList li {
+    width: auto;
+  }
+
+  .serviceList p {
+    min-height: auto;
+  }
+}
+
+@media only screen and (max-width: 481px) {
+  .serlistMore a {
+    padding: 10px 20px;
+  }
+}
