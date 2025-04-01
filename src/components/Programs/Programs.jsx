@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./programs.css";
 import employees from "../../assets/employees.png";
 import consulting from "../../assets/consulting.png";
@@ -13,29 +14,29 @@ const programs = () => {
       <div className="program">
         <img src={consulting} alt="" />
         <div className="caption">
-          <a href="/Itconsultingservices">
+          <Link to="/Itconsultingservices">
             <img src={consultingicon} alt="" />
             <p>IT Consulting Services</p>
-          </a>
+          </Link>
         </div>
       </div>
       <div className="program">
         <img src={employees} alt="" />
         <div className="caption">
-          <a href="/Staffingservices">
+          <Link to="/Staffingservices">
             <img src={hiringicon} alt="" />
             <p>Staffing Solutions</p>
-          </a>
+          </Link>
         </div>
       </div>
 
       <div className="program">
         <img src={contracttohire} alt="" />
         <div className="caption">
-          <a href="/Learningdevelopment">
+          <Link to="/Learningdevelopment">
             <img src={contracticon} alt="" />
             <p>Learning &amp; Development</p>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

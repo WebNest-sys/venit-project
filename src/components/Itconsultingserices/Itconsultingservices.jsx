@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Itconsultingservices.css";
 import consulting from "../../assets/consulting.png";
 
@@ -16,7 +17,7 @@ const Itconsultingservices = () => {
               digital transformation initiatives.
             </p>
             <div className="serlistMore">
-              <a href="/Artificialintelligence">Read More</a>
+              <Link to="/Artificialintelligence">Read More</Link>
             </div>
           </li>
           <li>
@@ -28,7 +29,7 @@ const Itconsultingservices = () => {
               decision-making capabilities.
             </p>
             <div className="serlistMore">
-              <a href="/Dataanalytics">Read More</a>
+              <Link to="/Dataanalytics">Read More</Link>
             </div>
           </li>
           <li>
@@ -39,7 +40,7 @@ const Itconsultingservices = () => {
               complete product.
             </p>
             <div className="serlistMore">
-              <a href="/Embedediot">Read More</a>
+              <Link to="/Embedediot">Read More</Link>
             </div>
           </li>
           <li>
@@ -51,7 +52,7 @@ const Itconsultingservices = () => {
               strengthen their security posture.
             </p>
             <div className="serlistMore">
-              <a href="/Cybersecurity">Read More</a>
+              <Link to="/Cybersecurity">Read More</Link>
             </div>
           </li>
           <li>
@@ -62,7 +63,7 @@ const Itconsultingservices = () => {
               architecture, digital design, and development.
             </p>
             <div className="serlistMore">
-              <a href="/Blockchain">Read More</a>
+              <Link to="/Blockchain">Read More</Link>
             </div>
           </li>
           <li>
@@ -73,7 +74,7 @@ const Itconsultingservices = () => {
               implementing, supporting and monitoring for various organisations.
             </p>
             <div className="serlistMore">
-              <a href="/Manageditcloudconsulting">Read More</a>
+              <Link to="/Manageditcloudconsulting">Read More</Link>
             </div>
           </li>
           <li>
@@ -85,7 +86,7 @@ const Itconsultingservices = () => {
               offers an alternate development cycle.
             </p>
             <div className="serlistMore">
-              <a href="/Fullstack">Read More</a>
+              <Link to="/Fullstack">Read More</Link>
             </div>
           </li>
           <li>
@@ -97,7 +98,7 @@ const Itconsultingservices = () => {
               research, user interviews and User testing etc
             </p>
             <div className="serlistMore">
-              <a href="/Uiuxservices">Read More</a>
+              <Link to="/Uiuxservices">Read More</Link>
             </div>
           </li>
           <li>
@@ -109,7 +110,7 @@ const Itconsultingservices = () => {
               competitors.
             </p>
             <div className="serlistMore">
-              <a href="/Ecommerce">Read More</a>
+              <Link to="/Ecommerce">Read More</Link>
             </div>
           </li>
           <li>
@@ -120,7 +121,7 @@ const Itconsultingservices = () => {
               transformative enterprise-class solution.
             </p>
             <div className="serlistMore">
-              <a href="/Mobileapplication">Read More</a>
+              <Link to="/Mobileapplication">Read More</Link>
             </div>
           </li>
           <li>
@@ -132,7 +133,7 @@ const Itconsultingservices = () => {
               31000).
             </p>
             <div className="serlistMore">
-              <a href="/Processconsulting">Read More</a>
+              <Link to="/Processconsulting">Read More</Link>
             </div>
           </li>
         </ul>

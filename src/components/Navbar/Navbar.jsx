@@ -60,9 +60,9 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <li className="navbar-logo">
-            <a href="/">
+            <Link to="/">
               <img src={logo} className="logo" />
-            </a>
+            </Link>
           </li>
           <div className="menu-icon" onClick={handleClick}>
             <FontAwesomeIcon icon={faBars} />

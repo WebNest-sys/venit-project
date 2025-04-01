@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Learningdevelopment.css";
 import contracttohire from "../../assets/contracttohire.png";
 
@@ -16,7 +17,7 @@ const Learningdevelopment = () => {
               Chartered Institute for Personnel and Development
             </p>
             <div className="serlistMore">
-              <a href="/Organizationdevelopment">Read More</a>
+              <Link to="/Organizationdevelopment">Read More</Link>
             </div>
           </li>
           <li>
@@ -27,7 +28,7 @@ const Learningdevelopment = () => {
               development enables employees to improve their skills
             </p>
             <div className="serlistMore">
-              <a href="/Leadershipdevelopment">Read More</a>
+              <Link to="/Leadershipdevelopment">Read More</Link>
             </div>
           </li>
           <li>
@@ -38,7 +39,7 @@ const Learningdevelopment = () => {
               are starting your career or are an experienced professional.
             </p>
             <div className="serlistMore">
-              <a href="/Technicaltraining">Read More</a>
+              <Link to="/Technicaltraining">Read More</Link>
             </div>
           </li>
           <li>
@@ -50,7 +51,7 @@ const Learningdevelopment = () => {
               their strengths.
             </p>
             <div className="serlistMore">
-              <a href="/Talentdevelopment">Read More</a>
+              <Link to="/Talentdevelopment">Read More</Link>
             </div>
           </li>
           <li>
@@ -61,7 +62,7 @@ const Learningdevelopment = () => {
               sustainable.
             </p>
             <div className="serlistMore">
-              <a href="/Highperformingteams">Read More</a>
+              <Link to="/Highperformingteams">Read More</Link>
             </div>
           </li>
           <li>
@@ -73,7 +74,7 @@ const Learningdevelopment = () => {
               culture of resilient relationships
             </p>
             <div className="serlistMore">
-              <a href="/Relationshipintelligence">Read More</a>
+              <Link to="/Relationshipintelligence">Read More</Link>
             </div>
           </li>
           <li>
@@ -84,7 +85,7 @@ const Learningdevelopment = () => {
               be effective.
             </p>
             <div className="serlistMore">
-              <a href="/Learningdevelopmentservice">Read More</a>
+              <Link to="/Learningdevelopmentservice">Read More</Link>
             </div>
           </li>
           <li>
@@ -96,7 +97,7 @@ const Learningdevelopment = () => {
               materials, courses, and resources.
             </p>
             <div className="serlistMore">
-              <a href="/Learningmanagementsystems">Read More</a>
+              <Link to="/Learningmanagementsystems">Read More</Link>
             </div>
           </li>
           <li>
@@ -108,7 +109,7 @@ const Learningdevelopment = () => {
               non-technical skills.
             </p>
             <div className="serlistMore">
-              <a href="/Assessments">Read More</a>
+              <Link to="/Assessments">Read More</Link>
             </div>
           </li>
         </ul>

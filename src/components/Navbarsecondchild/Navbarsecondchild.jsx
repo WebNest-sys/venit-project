@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Navbarsecondchild.css";
 
 const Navbarsecondchild = ({
@@ -11,13 +12,13 @@ const Navbarsecondchild = ({
     <div className="navContainer">
       <h1>{navTitle}</h1>
       <div className="breadCrumbs">
-        <a href="/" title="Back to Venit Solutions home page">
+        <Link to="/" title="Back to Venit Solutions home page">
           Home
-        </a>
+        </Link>
         <span>/</span>
-        <a href="/program">{navFisrtchild}</a>
+        <Link to="/program">{navFisrtchild}</Link>
         <span>/</span>
-        <a href="/Itconsultingservices">{navSecondchild}</a>
+        <Link to="/Itconsultingservices">{navSecondchild}</Link>
         <span>/</span> {navSubtitle}
       </div>
     </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Hero.css";
 
 const hero = () => {
@@ -14,7 +15,7 @@ const hero = () => {
           evolving digital landscape.
         </p>
         <button className="btn">
-          <a href="/program">Explore more</a>
+          <Link to="/program">Explore more</Link>
         </button>
       </div>
     </div>
