@@ -1,7 +1,7 @@
 import React from "react";
-import "./Navbarsecondchild.css";
+import "./Navbarthirdchild.css";
 
-const Navbarsecondchild = ({
+const Navbarthirdchild = ({
   navTitle,
   navFisrtchild,
   navSecondchild,
@@ -17,11 +17,11 @@ const Navbarsecondchild = ({
         <span>/</span>
         <a href="/program">{navFisrtchild}</a>
         <span>/</span>
-        <a href="/Itconsultingservices">{navSecondchild}</a>
+        <a href="/Learningdevelopment">{navSecondchild}</a>
         <span>/</span> {navSubtitle}
       </div>
     </div>
   );
 };
 
-export default Navbarsecondchild;
+export default Navbarthirdchild;

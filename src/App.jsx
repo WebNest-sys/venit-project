@@ -20,6 +20,16 @@ import Uiuxservices from "./Pages/Uiuxservices";
 import Ecommerce from "./Pages/Ecommerce";
 import Mobileapplication from "./Pages/Mobileapplication";
 import Processconsulting from "./Pages/Processconsulting";
+import Organizationdevelopment from "./Pages/Organizationdevelopment";
+import Leadershipdevelopment from "./Pages/Leadershipdevelopment";
+import Technicaltraining from "./Pages/Technicaltraining";
+import Talentdevelopment from "./Pages/Talentdevelopment";
+import Highperformingteams from "./Pages/Highperformingteams";
+import Relationshipintelligence from "./Pages/Relationshipintelligence";
+import Learningdevelopmentservice from "./Pages/Learningdevelopmentservice";
+import Learningmanagementsystems from "./Pages/Learningmanagementsystems";
+import Assessments from "./Pages/Assessments";
+
 const App = () => {
   return (
     <>
@@ -57,6 +67,33 @@ const App = () => {
           <Route path="/Ecommerce" element={<Ecommerce />} />
           <Route path="/Mobileapplication" element={<Mobileapplication />} />
           <Route path="/Processconsulting" element={<Processconsulting />} />
+          <Route
+            path="/Organizationdevelopment"
+            element={<Organizationdevelopment />}
+          />
+          <Route
+            path="/Leadershipdevelopment"
+            element={<Leadershipdevelopment />}
+          />
+          <Route path="/Technicaltraining" element={<Technicaltraining />} />
+          <Route path="/Talentdevelopment" element={<Talentdevelopment />} />
+          <Route
+            path="/Highperformingteams"
+            element={<Highperformingteams />}
+          />
+          <Route
+            path="/Relationshipintelligence"
+            element={<Relationshipintelligence />}
+          />
+          <Route
+            path="/Learningdevelopmentservice"
+            element={<Learningdevelopmentservice />}
+          />
+          <Route
+            path="/Learningmanagementsystems"
+            element={<Learningmanagementsystems />}
+          />
+          <Route path="/Assessments" element={<Assessments />} />
         </Routes>
       </Router>
     </>

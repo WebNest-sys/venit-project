@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbarfirstchild.css";
 
-const Subnavbar = ({ navTitle, navFisrtchild, navSubtitle }) => {
+const Navbarfirstchild = ({ navTitle, navFisrtchild, navSubtitle }) => {
   return (
     <div className="navContainer">
       <h1>{navTitle}</h1>
@@ -17,4 +17,4 @@ const Subnavbar = ({ navTitle, navFisrtchild, navSubtitle }) => {
   );
 };
 
-export default Subnavbar;
+export default Navbarfirstchild;

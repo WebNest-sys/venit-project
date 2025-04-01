@@ -84,7 +84,7 @@ const Learningdevelopment = () => {
               be effective.
             </p>
             <div className="serlistMore">
-              <a href="/Learningdevelopservice">Read More</a>
+              <a href="/Learningdevelopmentservice">Read More</a>
             </div>
           </li>
           <li>
