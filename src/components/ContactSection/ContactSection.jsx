@@ -26,7 +26,7 @@ function ContactSection() {
 
   return (
     <>
-      <div className="footContainer">
+      <div className="pagesContainer">
         <Title subTitle="Get in touch with us" />
         <div class="container-items">
           <AddressDetailsBar />
