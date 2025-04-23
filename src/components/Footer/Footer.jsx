@@ -15,7 +15,7 @@ function Footer() {
           <div class='social-media-wrap'>
             <div class='footer-logo'>
               <Link to='/' className='social-logo'>
-                <img src={logo} alt="" className="logo" />
+                <img src={logo} alt="" className="logo-width" />
               </Link>
             </div>
             <small class='website-rights'>VENIT Solutions ©2025</small>

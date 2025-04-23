@@ -18,6 +18,7 @@ function EnquiryForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    console.log(e);
     //Log to send data via mail comes here
   };
 
@@ -26,21 +27,21 @@ function EnquiryForm() {
       <div class="inputSideWrapper">
         <div class="inputWrapper">
           <p>Name</p>
-          <div class="input" type="text" placeholder="Allen Jones" />
+          <input class="input" type="text" placeholder="Name" />
         </div>
         <div class="inputWrapper">
           <p>Email</p>
-          <div class="input" type="email" placeholder="aljay126@gmail.com" />
+          <input class="input" type="email" placeholder="Enter your email address" />
         </div>
         <div class="inputWrapper">
           <p>Phone</p>
-          <div class="input" type="number" placeholder="+233546227893" />
+          <input class="input" type="number" placeholder="Phone Number" />
         </div>
         <div class="inputWrapper">
           <p>Message</p>
-          <div class="messageInput" placeholder="Write your message" />
+          <textarea class="messageInput" placeholder="Write your message" />
         </div>
-        <input class="button" type="submit" value="Send Message" />
+        <input class="button" type="submit" onClick={handleSubmit} value="Send Message" />
       </div>
     </>
   );

@@ -61,7 +61,7 @@ function Navbar() {
         <div className="navbar-container">
           <li className="navbar-logo">
             <Link to="/">
-              <img src={logo} className="logo" />
+              <img src={logo} className="logo-width" />
             </Link>
           </li>
           <div className="menu-icon" onClick={handleClick}>

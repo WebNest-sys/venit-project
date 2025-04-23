@@ -1,12 +1,13 @@
 import React from "react";
 import Footer from "../components/Footer/Footer";
 import About from "../components/About/About";
-import Subnavbar from "../components/Subnavbar/Subnavbar";
+
+// import Subnavbar from "../components/Subnavbar/Subnavbar";
+{/* <Subnavbar navTitle="About Us" navSubtitle="About Us" /> */}
 
 function Routeabout() {
   return (
     <div>
-      <Subnavbar navTitle="About Us" navSubtitle="About Us" />
       <div className="container">
         <About />
       </div>
