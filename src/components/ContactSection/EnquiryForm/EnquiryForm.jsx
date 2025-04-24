@@ -2,52 +2,6 @@ import React, { useState , useRef} from "react";
 import "./EnquiryForm.css";
 import emailjs from '@emailjs/browser';
 
-// function EnquiryForm() {
-//   const [formData, setFormData] = useState({
-//     name: "",
-//     email: "",
-//     message: "",
-//   });
-
-//   const handleChange = (e) => {
-//     const { name, value } = e.target;
-//     setFormData({
-//       ...formData,
-//       [name]: value,
-//     });
-//   };
-
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
-//     console.log(e);
-//     //Log to send data via mail comes here
-//   };
-
-//   return (
-//     <>
-//       <div class="inputSideWrapper">
-//         <div class="inputWrapper">
-//           <p>Name</p>
-//           <input class="input" type="text" placeholder="Name" />
-//         </div>
-//         <div class="inputWrapper">
-//           <p>Email</p>
-//           <input class="input" type="email" placeholder="Enter your email address" />
-//         </div>
-//         <div class="inputWrapper">
-//           <p>Phone</p>
-//           <input class="input" type="number" placeholder="Phone Number" />
-//         </div>
-//         <div class="inputWrapper">
-//           <p>Message</p>
-//           <textarea class="messageInput" placeholder="Write your message" />
-//         </div>
-//         <input class="button" type="submit" onClick={handleSubmit} value="Send Message" />
-//       </div>
-//     </>
-//   );
-// }
-
 const EnquiryForm = () => {
 
   const form = useRef();
@@ -84,8 +38,8 @@ const EnquiryForm = () => {
     if (Object.keys(formErrors).length === 0) {
       console.log('Form submitted:', formData);
       emailjs
-      .sendForm('service_l186b25', 'template_1aj5t9g', form.current, {
-        publicKey: 'Mps-TrExuPpqHrRD2', 
+      .sendForm(import.meta.env.VITE_REACT_APP_SERVICE_ID, import.meta.env.VITE_REACT_APP_TEMPLATE_ID, form.current, {
+        publicKey: import.meta.env.VITE_REACT_APP_PUBLIC_KEY, 
       })
       .then(
         () => {
@@ -95,18 +49,6 @@ const EnquiryForm = () => {
           console.log('FAILED...', error.text);
         },
       );
-
-      // emailjs.send(
-      //   'service_l186b25',
-      //   'template_1aj5t9g',
-      //   formData,
-      //   'dC5ENmeBSzJBbPVCY'
-      // ).then((response) => {
-      //   console.log('SUCCESS!', response.status, response.text);
-      // }).catch((err) => {
-      //   console.error('FAILED...', err);
-      // });
-      // Handle form submission (e.g., send data to server)
     } else {
       setErrors(formErrors);
     }
