@@ -1,7 +1,8 @@
 .photoGallery {
   display: flex;
-  gap: 40px;
-  margin-top: 60px;
+  gap: 75px;
+  margin-top: 65px;
+  margin-bottom: 130px;
 }
 
 .column {
