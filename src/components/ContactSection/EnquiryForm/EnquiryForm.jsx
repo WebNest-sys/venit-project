@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState , useRef} from "react";
 import "./EnquiryForm.css";
+import emailjs from '@emailjs/browser';
 
 // function EnquiryForm() {
 //   const [formData, setFormData] = useState({
@@ -48,6 +49,9 @@ import "./EnquiryForm.css";
 // }
 
 const EnquiryForm = () => {
+
+  const form = useRef();
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -79,6 +83,29 @@ const EnquiryForm = () => {
     const formErrors = validate();
     if (Object.keys(formErrors).length === 0) {
       console.log('Form submitted:', formData);
+      emailjs
+      .sendForm('service_l186b25', 'template_1aj5t9g', form.current, {
+        publicKey: 'Mps-TrExuPpqHrRD2', 
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+
+      // emailjs.send(
+      //   'service_l186b25',
+      //   'template_1aj5t9g',
+      //   formData,
+      //   'dC5ENmeBSzJBbPVCY'
+      // ).then((response) => {
+      //   console.log('SUCCESS!', response.status, response.text);
+      // }).catch((err) => {
+      //   console.error('FAILED...', err);
+      // });
       // Handle form submission (e.g., send data to server)
     } else {
       setErrors(formErrors);
@@ -86,7 +113,7 @@ const EnquiryForm = () => {
   };
 
   return (
-    <form class="form-style" onSubmit={handleSubmit}> 
+    <form ref={form} class="form-style" onSubmit={handleSubmit}> 
     <div class="inputSideWrapper">
       <div class="inputWrapper">
         <label htmlFor="name">Name*:</label>
