@@ -1,3 +1,8 @@
+.form-style {
+  width: 100% !important;
+  margin: 15px -15% 2% 2%;
+}
+
 .inputSideWrapper {
   height: auto;
   padding-bottom: 100px;
@@ -36,6 +41,10 @@
   border-right: 1px solid transparent;
   border-top: 1px solid transparent;
   outline: 0px transparent !important;
+}
+
+.error-style {
+  color: red;
 }
 
 .button {

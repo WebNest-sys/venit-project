@@ -2,8 +2,8 @@ import React from "react";
 import "./AddressDetailsBar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faEnvelope,
-  faPhone,
+  faEnvelope, 
+  faPhone, 
   faAddressCard,
   faX,
 } from "@fortawesome/free-solid-svg-icons";
@@ -89,13 +89,18 @@ const AddressDetailsBar = () => {
   return (
     <div class="detailsBarWrapper">
       <div class="textWrapper">
-        <div class="textOne">VENIT Solutions</div>
+        <div class="textOne">VENIT Consulting</div>
       </div>
 
       <div>
         <div class="contactWrapper">
           <FontAwesomeIcon icon={faPhone} />
-          <div class="contactText"> +91 9686760594</div>
+          <div class="contactText"> +91 9741440804</div>
+        </div>
+
+        <div class="contactWrapper">
+          <FontAwesomeIcon icon={faEnvelope} />
+          <div class="contactText"> bhargavi@venitconsulting.com</div>
         </div>
 
         <div class="contactWrapper">
@@ -104,9 +109,16 @@ const AddressDetailsBar = () => {
             #459, 3rd floor, Kiran Towers, Service Rd,<br></br>
             Teacher's Colony, Santhosapuram,<br></br>
             1st Block Koramangala, Bengaluru,<br></br>
-            Karnataka-560034 India. <br></br>
-            <br></br>aravind@venitconsulting.com
+            Karnataka-560034 <br></br>
+            India.
           </div>
+        </div>
+
+        <div class="contactWrapper">
+        <div >
+          <iframe width="350" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+           src="https://maps.google.com/maps?width=400&amp;height=300&amp;hl=en&amp;q=3rd%20floor,%20Kiran%20Towers,%20459,%20Service%20Rd,%20Teacher's%20Colony,%20Santhosapuram,%201st%20Block%20Koramangala,%20Koramangala,%20Bengaluru,%20Karnataka%20560034+(VENIT%20Consulting)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/collections/personal-trackers/">Personal GPS</a>
+           </iframe></div>
         </div>
       </div>
     </div>
