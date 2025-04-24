@@ -51,17 +51,6 @@ const Services = () => {
             </li>
             <li>
               <div className="slide">
-                <img src={blockchain} alt="" className="" />
-                <div className="serviceInfo">
-                  <h3>Blockchain</h3>
-                  <p>Block Chain Developer</p>
-                  <p>Block Chain Research Engineers</p>
-                  <p>Block Chain Architects</p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="slide">
                 <img src={virtualreality} alt="" className="" />
                 <div className="serviceInfo">
                   <h3>Virtual Reality</h3>
@@ -105,6 +94,17 @@ const Services = () => {
                   <p>Sharepoint</p>
                   <p>.Net</p>
                   <p>SAP</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="slide">
+                <img src={blockchain} alt="" className="" />
+                <div className="serviceInfo">
+                  <h3>Blockchain</h3>
+                  <p>Block Chain Developer</p>
+                  <p>Block Chain Research Engineers</p>
+                  <p>Block Chain Architects</p>
                 </div>
               </div>
             </li>

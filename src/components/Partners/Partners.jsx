@@ -10,6 +10,8 @@ import happiestminds from "../../assets/happiestminds.jpg";
 import manthansystems from "../../assets/manthansystems.jpg";
 import mindtree from "../../assets/mindtree.jpg";
 import justdial from "../../assets/justdial.jpg";
+import lumen from "../../assets/lumen.jpg";
+import { width } from "@fortawesome/free-brands-svg-icons/fa42Group";
 
 const Partners = () => {
   return (
@@ -34,13 +36,16 @@ const Partners = () => {
           <img src={happiestminds} alt="" />
         </div>
         <div>
-          <img src={manthansystems} alt="" />
+          <img width="100" src={manthansystems} alt="" />
         </div>
         <div>
           <img src={mindtree} alt="" />
         </div>
         <div>
           <img src={justdial} alt="" />
+        </div>
+        <div>
+          <img width="100" src={lumen} alt="" />
         </div>
       </Marquee>
     </div>

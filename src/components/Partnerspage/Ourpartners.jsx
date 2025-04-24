@@ -9,6 +9,7 @@ import happiestminds from "../../assets/happiestminds.jpg";
 import manthansystems from "../../assets/manthansystems.jpg";
 import mindtree from "../../assets/mindtree.jpg";
 import justdial from "../../assets/justdial.jpg";
+import lumen from "../../assets/lumen.jpg";
 
 function Ourpartners() {
   return (
@@ -21,14 +22,16 @@ function Ourpartners() {
           <div className="photo">
             <img src={cadence} alt="" />
           </div>
-          <div className="photo">
-            <img src={centurylink} alt="" />
-          </div>
         </div>
         <div className="column">
           <div className="photo">
+            <img src={centurylink} alt="" />
+          </div>
+          <div className="photo">
             <img src={chelsio} alt="" />
           </div>
+        </div>
+        <div className="column">
           <div className="photo">
             <img src={fastenal} alt="" />
           </div>
@@ -38,13 +41,18 @@ function Ourpartners() {
         </div>
         <div className="column">
           <div className="photo">
-            <img src={manthansystems} alt="" />
+            <img width="120" height="116" src={manthansystems} alt="" />
           </div>
           <div className="photo">
             <img src={mindtree} alt="" />
           </div>
+        </div>
+        <div className="column">
           <div className="photo">
             <img src={justdial} alt="" />
+          </div>
+          <div className="photo">
+            <img width="120" height="116" src={lumen} alt="" />
           </div>
         </div>
       </div>
