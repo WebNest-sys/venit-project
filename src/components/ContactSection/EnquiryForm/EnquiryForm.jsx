@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 
 const EnquiryForm = () => {
 
-  const form = useRef();
+  const form = useRef(null);
 
   const [formData, setFormData] = useState({
     name: '',
@@ -37,6 +37,13 @@ const EnquiryForm = () => {
     const formErrors = validate();
     if (Object.keys(formErrors).length === 0) {
       console.log('Form submitted:', formData);
+      setFormData({
+        name: '',
+        email: '',
+        phone: '',
+        message: ''
+      });
+      form.current.reset();
       emailjs
       .sendForm(import.meta.env.VITE_REACT_APP_SERVICE_ID, import.meta.env.VITE_REACT_APP_TEMPLATE_ID, form.current, {
         publicKey: import.meta.env.VITE_REACT_APP_PUBLIC_KEY, 
@@ -44,6 +51,7 @@ const EnquiryForm = () => {
       .then(
         () => {
           console.log('SUCCESS!');
+          
         },
         (error) => {
           console.log('FAILED...', error.text);
