@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import "./Services.css";
 import leftarw from "../../assets/leftarw.png";
 import rightarw from "../../assets/rightarw.png";
@@ -10,6 +10,7 @@ import robotics from "../../assets/robotics.png";
 import infoservices from "../../assets/infoservices.png";
 
 const Services = () => {
+  
   const slider = useRef();
   let tx = 0;
   const slideForward = () => {
@@ -25,16 +26,17 @@ const Services = () => {
     slider.current.style.transform = `translateX(${tx}%)`;
   };
 
+  // <img src={leftarw} alt="" className="leftArw" onClick={slideBackward} />
+  //       <img
+  //         src={rightarw}
+  //         alt=""
+  //         className="rightArw"
+  //         onClick={slideForward}
+  //       />
+
   return (
     <div>
       <div className="services">
-        <img src={leftarw} alt="" className="leftArw" onClick={slideBackward} />
-        <img
-          src={rightarw}
-          alt=""
-          className="rightArw"
-          onClick={slideForward}
-        />
         <div className="slider">
           <ul ref={slider}>
             <li>

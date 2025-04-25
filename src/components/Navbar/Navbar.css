@@ -109,7 +109,18 @@ nav ul li {
   display: none;
 }
 
+.logo-style {
+  margin-top: 0;
+ }
+
 @media screen and (max-width: 960px) {
+
+  .logo-style {
+    margin-left: -15%;
+    width: 80%;
+    margin-top: 5%;
+  }
+
   .NavbarItems {
     position: relative;
   }

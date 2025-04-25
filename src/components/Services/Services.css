@@ -2,6 +2,7 @@
   margin: 10px auto 10px;
   position: relative;
   width: 90%;
+  overflow-x: scroll;
 }
 
 .leftArw,
@@ -26,13 +27,12 @@
 }
 
 .slider {
-  overflow: hidden;
+  visibility: visible;
 }
 
 .slider ul {
   display: flex;
   width: 200%;
-  overflow-x: hidden;
   transition: 0.5s;
   padding: 0;
 }
@@ -81,4 +81,10 @@
 .serviceInfo p {
   margin: 5px 0px;
   color: #fff;
+}
+
+@media only screen and (max-width: 960px) {
+  .slider {
+    width: 300%;
+  }
 }
