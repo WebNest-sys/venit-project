@@ -1,35 +1,5 @@
-/* nav {
-  width: 100%;
-
-  color: #fff;
-  padding: 4px 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  z-index: 10;
-}
-
-.logo {
-  width: 250px;
-}
-
-nav ul li {
-  display: inline-block;
-  list-style: none;
-  margin: 5px 20px;
-  font-size: 16px;
-}
-
-.darkNav {
-  background: #212ea0;
-  transition: 0.5s;
-} */
-
 .navbar {
-  background: linear-gradient(90deg, Gray, #212ea0);
+  background: linear-gradient(90deg, #a8a9b3, #212ea0);
   height: 80px;
   display: flex;
   justify-content: center;
@@ -110,15 +80,16 @@ nav ul li {
 }
 
 .logo-style {
-  margin-top: 0;
+  margin-top: 10px;
+  width: 35%;
  }
 
 @media screen and (max-width: 960px) {
 
   .logo-style {
-    margin-left: -15%;
-    width: 80%;
-    margin-top: 5%;
+    margin-left: 0%;
+    width: 50%;
+    margin-top: -20%;
   }
 
   .NavbarItems {

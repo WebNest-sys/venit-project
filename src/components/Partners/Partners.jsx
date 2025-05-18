@@ -24,9 +24,6 @@ const Partners = () => {
           <img src={cadence} alt="" />
         </div>
         <div>
-          <img src={centurylink} alt="" />
-        </div>
-        <div>
           <img src={chelsio} alt="" />
         </div>
         <div>

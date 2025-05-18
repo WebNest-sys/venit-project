@@ -22,32 +22,27 @@ function Ourpartners() {
           <div className="photo">
             <img src={cadence} alt="" />
           </div>
-        </div>
-        <div className="column">
-          <div className="photo">
-            <img src={centurylink} alt="" />
-          </div>
-          <div className="photo">
-            <img src={chelsio} alt="" />
-          </div>
-        </div>
-        <div className="column">
-          <div className="photo">
-            <img src={fastenal} alt="" />
-          </div>
           <div className="photo">
             <img src={happiestminds} alt="" />
           </div>
         </div>
+
         <div className="column">
           <div className="photo">
-            <img width="120" height="116" src={manthansystems} alt="" />
+            <img src={chelsio} alt="" />
+          </div>
+          <div className="photo">
+            <img src={fastenal} alt="" />
           </div>
           <div className="photo">
             <img src={mindtree} alt="" />
           </div>
         </div>
+
         <div className="column">
+          <div className="photo">
+            <img width="120" height="116" src={manthansystems} alt="" />
+          </div>
           <div className="photo">
             <img src={justdial} alt="" />
           </div>
