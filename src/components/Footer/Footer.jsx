@@ -11,7 +11,7 @@ function Footer() {
       <img  src={logo} alt="Logo" className="footer-logo" />
 
       <p className="footer-text">
-        © Copyright VENIT Consultion | All rights reserved
+        © Copyright VENIT Consulting | All rights reserved
       </p>
 
       <div className="footer-links">
