@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo.svg";
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -8,7 +8,7 @@ import { faFacebook, faInstagram, faTwitter, faLinkedin } from '@fortawesome/fre
 function Footer() { 
   return (
     <footer className="footer">
-      <img  src={logo} alt="Logo" className="footer-logo" />
+      <img src={logo} className="footer-logo"/>
 
       <p className="footer-text">
         © Copyright VENIT Consulting | All rights reserved

@@ -81,15 +81,15 @@
 
 .logo-style {
   margin-top: 10px;
-  width: 35%;
+  width: 90%;
  }
 
 @media screen and (max-width: 960px) {
 
   .logo-style {
-    margin-left: 0%;
-    width: 50%;
-    margin-top: -20%;
+    margin-left: -17%;
+    width: 85%;
+    margin-top: -43%;
   }
 
   .NavbarItems {

@@ -11,7 +11,7 @@ const About = () => {
         {/* <img src={play} alt="" className="playImg" /> */}
       </div>
       <div className="aboutRight">
-        <h3>ABOUT VENIT SOLUTIONS</h3>
+        <h3>ABOUT VENIT Consulting</h3>
         <h2>We Are Where You Are</h2>
         <p>
           The universe is constant except change we had of the changes and that
