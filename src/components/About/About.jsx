@@ -19,8 +19,8 @@ const About = () => {
           technologies, as well latest trends. In every technology help in
           making the world a better place to live, so over here we have discuss
           some of those top trending technologies. We work with real time
-          technology partners based out of India, Malaysia, Singapore, UAE, USA
-          and Canada.
+          technology partners based out of India, Malaysia, Singapore, Australia,
+          UAE, USA and Canada.
         </p>
       </div>
     </div>

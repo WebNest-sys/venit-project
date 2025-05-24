@@ -11,6 +11,14 @@ import manthansystems from "../../assets/manthansystems.jpg";
 import mindtree from "../../assets/mindtree.jpg";
 import justdial from "../../assets/justdial.jpg";
 import lumen from "../../assets/lumen.jpg";
+import anz from "../../assets/anz.jpg";
+import westpac from "../../assets/venit_westpac.jpg";
+import mag from "../../assets/venit_mag.jpg";
+import qan from  "../../assets/venit_qan.jpg";
+import rio from "../../assets/venit_rio.jpg";
+import bhp from "../../assets/venit_bhp.jpg";
+import boral from "../../assets/venit_boral.jpg";
+import tHealth from "../../assets/venit_thealth.jpg";
 import { width } from "@fortawesome/free-brands-svg-icons/fa42Group";
 
 const Partners = () => {
@@ -33,7 +41,7 @@ const Partners = () => {
           <img src={happiestminds} alt="" />
         </div>
         <div>
-          <img width="100" src={manthansystems} alt="" />
+          <img src={manthansystems} alt="" />
         </div>
         <div>
           <img src={mindtree} alt="" />
@@ -42,7 +50,31 @@ const Partners = () => {
           <img src={justdial} alt="" />
         </div>
         <div>
-          <img width="100" src={lumen} alt="" />
+          <img src={lumen} alt="" />
+        </div>
+        <div>
+          <img src={anz} alt="" />
+        </div>
+        <div>
+          <img src={westpac} alt="" />
+        </div>
+        <div>
+          <img src={mag} alt="" />
+        </div>
+        <div>
+          <img src={qan} alt="" />
+        </div>
+        <div>
+          <img src={rio} alt="" />
+        </div>
+        <div>
+          <img src={bhp} alt="" />
+        </div>
+        <div>
+          <img src={boral} alt="" />
+        </div>
+        <div>
+          <img src={tHealth} alt="" />
         </div>
       </Marquee>
     </div>
